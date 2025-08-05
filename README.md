@@ -27,13 +27,90 @@ https://flight-price-api-cxaq.onrender.com/docs
   "departure_time": 3
 }
 
-Расшифровка:
+🔢 Таблица соответствий закодированных значений (для API)
 
-    class_ = 0 -> Economy; 1 -> Business
-    airline = 0 -> SpiceJet; 1 -> AirAsia; 2 -> Vistara; 3 -> GO_FIRST; 4 -> Indigo; 5 -> Air_India
-    stops = 0 -> zero; 1 -> one; 2 -> two_or_more
-    destination_city = 0 -> Mumbai; 1 -> Bangalore; 2 -> Kolkata; 3 -> Hyderabad; 4 -> Chennai; 5 -> Delhi
-    source_city = 0 -> Delhi; 1 -> Mumbai; 2 -> Bangalore; 3 -> Kolkata; 4 -> Hyderabad; 5 -> Chennai
-    arrival_time = 0 -> Night; 1 -> Morning; 2 -> Early_Morning; 3 -> Afternoon; 4 -> Evening; 5 -> Late_Night
-    departure_time = 0 -> Night; 1 -> Morning; 2 -> Early_Morning; 3 -> Afternoon; 4 -> Evening; 5 -> Late_Night
+  Расшифровка:
+  
+✈️ Airline (авиалиния):
 
+    0 — AirAsia
+
+    1 — Air India
+
+    2 — GO FIRST
+
+    3 — Indigo
+
+    4 — SpiceJet
+
+    5 — Vistara
+
+🌆 Source City (город вылета):
+
+    0 — Bangalore
+
+    1 — Chennai
+
+    2 — Delhi
+
+    3 — Hyderabad
+
+    4 — Kolkata
+
+    5 — Mumbai
+
+🏙️ Destination City (город прилёта):
+
+    0 — Bangalore
+
+    1 — Chennai
+
+    2 — Delhi
+
+    3 — Hyderabad
+
+    4 — Kolkata
+
+    5 — Mumbai
+
+🕑 Departure Time (время вылета):
+
+    0 — Afternoon
+
+    1 — Early Morning
+
+    2 — Evening
+
+    3 — Late Night
+
+    4 — Morning
+
+    5 — Night
+
+🕓 Arrival Time (время прилёта):
+
+    0 — Afternoon
+
+    1 — Early Morning
+
+    2 — Evening
+
+    3 — Late Night
+
+    4 — Morning
+
+    5 — Night
+
+🛑 Stops (количество пересадок):
+
+    0 — One
+
+    1 — Two or more
+
+    2 — Zero
+
+💺 Class (класс обслуживания):
+
+    0 — Business
+
+    1 — Economy
