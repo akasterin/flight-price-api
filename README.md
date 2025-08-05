@@ -27,9 +27,25 @@ https://flight-price-api-cxaq.onrender.com/docs
   "departure_time": 3
 }
 
-🔢 Таблица соответствий закодированных значений (для API)
-
   Расшифровка:
+
+    class_ = 0 → Business
+
+    airline = 2 → GO_FIRST
+
+    stops = 1 → two_or_more
+
+    destination_city = 4 → Kolkata
+
+    source_city = 0 → Bangalore
+
+    arrival_time = 2 → Evening
+
+    departure_time = 3 → Late_Night
+
+    
+    
+  🔢 Таблица соответствий закодированных значений (для API)
   
 ✈️ Airline (авиалиния):
 
