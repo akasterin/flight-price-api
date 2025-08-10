@@ -47,86 +47,18 @@ https://flight-price-api-cxaq.onrender.com/docs
     
   🔢 Таблица соответствий закодированных значений (для API)
   
-✈️ Airline (авиалиния):
+## 📊 Таблица соответствия параметров для API `/predict`
 
-    0 — AirAsia
+| 🏷 Поле         | 📖 Описание параметра               | 🔢 Возможные значения / диапазон |
+|-----------------|------------------------------------|------------------------------------|
+| 🎟 `class_`     | Класс перелёта                     | `0` ✈ Business, `1` 💺 Economy |
+| ⏱ `duration`   | Длительность полёта (часы)         | От `0.83` до `49.83` ⏳ |
+| 📅 `days_left`  | Дней до вылета                     | Целое число, напр. `3` 📆 |
+| 🛫 `airline`    | Авиакомпания                       | `0` 🟥 AirAsia, `1` 🇮🇳 Air_India, `2` 🟦 GO_FIRST, `3` 🟢 IndiGo, `4` 🟨 SpiceJet, `5` 🟪 Vistara |
+| 🔄 `stops`      | Кол-во пересадок                   | `0` 🚀 zero, `1` 🛑 one, `2` 🔁 two_or_more |
+| 🎯 `destination_city` | Город назначения           | `0` 🏙 Bangalore, `1` 🏙 Chennai, `2` 🏙 Delhi, `3` 🏙 Hyderabad, `4` 🏙 Kolkata, `5` 🏙 Mumbai |
+| 🏙 `source_city`| Город вылета                       | `0` 🏙 Bangalore, `1` 🏙 Chennai, `2` 🏙 Delhi, `3` 🏙 Hyderabad, `4` 🏙 Kolkata, `5` 🏙 Mumbai |
+| ⏰ `arrival_time`| Время прибытия                    | `0` 🌇 Afternoon, `1` 🌅 Early_Morning, `2` 🌆 Evening, `3` 🌃 Late_Night, `4` 🌄 Morning, `5` 🌙 Night |
+| 🛫 `departure_time`| Время вылета                   | `0` 🌇 Afternoon, `1` 🌅 Early_Morning, `2` 🌆 Evening, `3` 🌃 Late_Night, `4` 🌄 Morning, `5` 🌙 Night |
 
-    1 — Air India
 
-    2 — GO FIRST
-
-    3 — Indigo
-
-    4 — SpiceJet
-
-    5 — Vistara
-
-🌆 Source City (город вылета):
-
-    0 — Bangalore
-
-    1 — Chennai
-
-    2 — Delhi
-
-    3 — Hyderabad
-
-    4 — Kolkata
-
-    5 — Mumbai
-
-🏙️ Destination City (город прилёта):
-
-    0 — Bangalore
-
-    1 — Chennai
-
-    2 — Delhi
-
-    3 — Hyderabad
-
-    4 — Kolkata
-
-    5 — Mumbai
-
-🕑 Departure Time (время вылета):
-
-    0 — Afternoon
-
-    1 — Early Morning
-
-    2 — Evening
-
-    3 — Late Night
-
-    4 — Morning
-
-    5 — Night
-
-🕓 Arrival Time (время прилёта):
-
-    0 — Afternoon
-
-    1 — Early Morning
-
-    2 — Evening
-
-    3 — Late Night
-
-    4 — Morning
-
-    5 — Night
-
-🛑 Stops (количество пересадок):
-
-    0 — One
-
-    1 — Two or more
-
-    2 — Zero
-
-💺 Class (класс обслуживания):
-
-    0 — Business
-
-    1 — Economy
