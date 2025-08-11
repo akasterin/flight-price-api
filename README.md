@@ -13,7 +13,7 @@
 ## 🔗 Ссылка на API:
 https://flight-price-api-cxaq.onrender.com/docs
 
-## 📦 Пример запроса:\
+## 📦 Пример запроса:
 
 ```json
 {
@@ -27,6 +27,18 @@ https://flight-price-api-cxaq.onrender.com/docs
 "arrival_time": 5,
 "departure_time": 1
 }
+```
+
+```plaintext
+"class_": 0             → 🎟 Класс: 0 = Business
+"duration": 2.5         → ⏱ Длительность полёта: 2.5 часа
+"days_left": 15         → 📅 Дней до вылета: 15
+"airline": 3            → 🛫 Авиалиния: 3 = IndiGo
+"stops": 1              → 🔄 Пересадки: 1 = одна пересадка
+"destination_city": 4   → 🎯 Город назначения: 4 = Kolkata
+"source_city": 2        → 🏙 Город вылета: 2 = Delhi
+"arrival_time": 5       → ⏰ Время прибытия: 5 = Ночь
+"departure_time": 1     → 🛫 Время вылета: 1 = Раннее утро
 ```
 
 ## 📊 Таблица соответствия параметров для API `/predict`
