@@ -137,19 +137,6 @@ https://flight-price-api-cxaq.onrender.com/docs
 
 ---
 
-## 📚 Термины
-
-- **ETL (Extract, Transform, Load)** — извлечение, преобразование и загрузка данных
-- **CI/CD** — автоматическая проверка и публикация изменений
-- **Docker** — упаковка приложения и зависимостей в контейнер
-- **MLflow** — управление экспериментами машинного обучения
-- **Apache Airflow** — планировщик и автоматизатор задач
-- **Prometheus** — сбор метрик
-- **Grafana** — визуализация метрик
-- **XGBoost** — библиотека для градиентного бустинга по деревьям, часто показывает высокие результаты в табличных данных
-
----
-
 ## 🔗 Полезные ссылки
 
 - 📊 Датасет: [Kaggle — Flight Price Prediction Dataset](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
