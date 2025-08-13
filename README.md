@@ -1,4 +1,4 @@
-# ✈️ Flight Price Prediction API
+# ✈️ Прогноз цен на авиабилеты (End-to-End ML + MLOps + Data Engineering) / Flight Price Prediction API
 
 Это API предсказывает стоимость авиабилета по следующим параметрам:
 
@@ -55,7 +55,6 @@ https://flight-price-api-cxaq.onrender.com/docs
 | ⏰ `arrival_time`    | Время прибытия              | - `0` 🌇 Afternoon  <br> - `1` 🌅 Early_Morning  <br> - `2` 🌆 Evening  <br> - `3` 🌃 Late_Night  <br> - `4` 🌄 Morning  <br> - `5` 🌙 Night |
 | 🛫 `departure_time`  | Время вылета                | - `0` 🌇 Afternoon  <br> - `1` 🌅 Early_Morning  <br> - `2` 🌆 Evening  <br> - `3` 🌃 Late_Night  <br> - `4` 🌄 Morning  <br> - `5` 🌙 Night |
 
-# ✈️ Прогноз цен на авиабилеты (End-to-End ML + MLOps + Data Engineering)
 
 ## 📄 Описание проекта
 Проект представляет собой **сервис для прогнозирования цен на авиабилеты** по заданным параметрам.  
